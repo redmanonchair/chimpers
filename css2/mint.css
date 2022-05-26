@@ -1,0 +1,130 @@
+#mconnection {
+ position:absolute;
+ left:23vw;
+ bottom:20vw;
+ height:25vw;
+ width:56vw;
+ background-image:url(../images/connect-wallet.png);
+ background-size:cover;
+ background-color:transparent
+}
+
+#mconnection.connected {
+ display:none
+}
+#mconnection button {
+ border:0;
+ background:transparent;
+ color:transparent;
+ cursor:pointer;
+ position:absolute;
+ width:26vw;
+ height:12vw;
+ left:15vw;
+ top:10vw
+}
+
+#mint {
+	padding-top:200px; 
+	text-align: center; 
+	display: block;
+	font-family: Pixeled, sans-serif;
+}
+
+#spinner {
+	font-size: 16px; 
+	animation: none;
+}
+
+.btn-minus {
+	background: transparent;
+    position: relative;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    background-position: 0 -15;
+    padding:7px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 14px; 
+    width:50px;
+}
+
+.btn-plus {
+	background: transparent;
+    position: relative;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    background-position: 0 -15;
+    padding:7px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px; 
+    width: 50px;
+}
+
+#totalNFT {
+	border: 0px;
+    text-align: center;
+    background: none;
+    width: 200px;
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+#status {
+	margin-top: 10px;
+	font-size: 12px; 
+	font-family: Pixeled, sans-serif;
+	color: black;
+}
+
+.btn-connect {
+	margin-top: 14px; 
+	margin-bottom: 20px; 
+	display: inline-block; 
+	width:160px;
+	padding: 16px 24px; 
+	cursor: pointer; 
+	transition: 0.1s ease-out; 
+	text-decoration: none; 
+	text-align: center; 
+	font-style: normal; 
+	font-weight: 500; 
+	font-size: 14px; 
+	line-height: 19px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	border-radius: 30px;
+	color: black;
+}
+
+.btn-checkout {
+	margin-top: 14px; 
+	margin-bottom: 20px;
+	/*display: inline-block; */
+	width:160px;
+	margin-left:20px;
+	padding: 16px 24px; 
+	cursor: pointer; 
+	transition: 0.1s ease-out; 
+	text-decoration: none; 
+	text-align: center; 
+	font-style: normal; 
+	font-weight: 500; 
+	font-size: 14px; 
+	line-height: 19px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+	border-radius: 30px;
+	color: black;
+}
+
+
+
+
